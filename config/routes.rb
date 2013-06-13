@@ -3,10 +3,34 @@ AceAdminLayoutTest::Application.routes.draw do
   root :to => 'dashboard#index'
 
   match 'index' => 'dashboard#index'
+
   match 'typography' => 'typography#typography'
+
   match 'buttons' => 'ui_elements#buttons'
   match 'elements' => 'ui_elements#elements'
   match 'treeview' => 'ui_elements#treeview'
+
+  match 'tables' => 'tables#tables'
+
+  match 'formelements' => 'Forms#formelements'
+  match 'formwizard' => 'Forms#formwizard'
+  match 'wysiwyg' => 'Forms#wysiwyg'
+
+  match 'widgets' => 'widgets#widgets'
+
+  match 'calendar' => 'calendar#calendar'
+
+  match 'gallery' => 'gallery#gallery'
+
+  match 'grid' => 'grid#grid'
+
+  match 'pricing' => 'other_pages#pricing'
+  match 'invoice' => 'other_pages#invoice'
+  match 'login' => 'other_pages#login'
+  match 'error404' => 'other_pages#error404'
+  match 'error500' => 'other_pages#error500'
+  match 'blank' => 'other_pages#blank'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

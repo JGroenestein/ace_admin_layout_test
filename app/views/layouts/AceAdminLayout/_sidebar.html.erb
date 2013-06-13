@@ -57,19 +57,16 @@
 
       <li <%= active_page?(treeview_path) %>>
           <%= link_to (raw('<i class="icon-double-angle-right"></i>Treeview')), treeview_path %>
-        </a>
       </li>
     </ul>
   <% end %>
 
-  <li>
-    <a href="tables.html">
-      <i class="icon-list"></i>
-      <span>Tables</span>
-    </a>
+  <li <%= active_page?(tables_path) %>>
+    <%= link_to (raw('<i class="icon-list"></i><span>Tables</span>')), tables_path %>
   </li>
 
-  <li>
+
+  <%= content_tag :li, :class => "#{active_menu?(current_page?(formelements_path) || current_page?(formwizard_path) || current_page?(wysiwyg_path))}" do %>
     <a href="#" class="dropdown-toggle">
       <i class="icon-edit"></i>
       <span>Forms</span>
@@ -78,58 +75,38 @@
     </a>
 
     <ul class="submenu">
-      <li>
-        <a href="form-elements.html">
-          <i class="icon-double-angle-right"></i>
-          Form Elements
-        </a>
+      <li <%= active_page?(formelements_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Form Elements')), formelements_path %>
       </li>
 
-      <li>
-        <a href="form-wizard.html">
-          <i class="icon-double-angle-right"></i>
-          Wizard &amp; Validation
-        </a>
+      <li <%= active_page?(formwizard_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Wizard & Validation')), formwizard_path %>
       </li>
 
-      <li>
-        <a href="wysiwyg.html">
-          <i class="icon-double-angle-right"></i>
-          Wysiwyg &amp; Markdown
-        </a>
+      <li <%= active_page?(wysiwyg_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Wysiwyg & Markdown')), wysiwyg_path %>
       </li>
     </ul>
+  <% end %>
+
+  <li <%= active_page?(widgets_path) %>>
+      <%= link_to (raw('<i class="icon-list-alt"></i><span>Widgets</span>')), widgets_path %>
   </li>
 
-  <li>
-    <a href="widgets.html">
-      <i class="icon-list-alt"></i>
-      <span>Widgets</span>
-    </a>
+  <li <%= active_page?(calendar_path) %>>
+    <%= link_to (raw('<i class="icon-calendar"></i><span>Calendar</span>')), calendar_path %>
   </li>
 
-  <li>
-    <a href="calendar.html">
-      <i class="icon-calendar"></i>
-      <span>Calendar</span>
-    </a>
+  <li <%= active_page?(gallery_path) %>>
+    <%= link_to (raw('<i class="icon-picture"></i><span>Gallery</span>')), gallery_path %>
+
   </li>
 
-  <li>
-    <a href="gallery.html">
-      <i class="icon-picture"></i>
-      <span>Gallery</span>
-    </a>
+  <li <%= active_page?(grid_path) %>>
+    <%= link_to (raw('<i class="icon-th"></i><span>Grid</span>')), grid_path %>
   </li>
 
-  <li>
-    <a href="grid.html">
-      <i class="icon-th"></i>
-      <span>Grid</span>
-    </a>
-  </li>
-
-  <li>
+  <%= content_tag :li, :class => "#{active_menu?(current_page?(pricing_path) || current_page?(invoice_path) || current_page?(login_path) || current_page?(error404_path) || current_page?(error500_path) || current_page?(blank_path))}" do %>
     <a href="#" class="dropdown-toggle">
       <i class="icon-file"></i>
       <span>Other Pages</span>
@@ -138,49 +115,31 @@
     </a>
 
     <ul class="submenu">
-      <li>
-        <a href="pricing.html">
-          <i class="icon-double-angle-right"></i>
-          Pricing Tables
-        </a>
+      <li <%= active_page?(pricing_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Pricing Tables')), pricing_path %>
       </li>
 
-      <li>
-        <a href="invoice.html">
-          <i class="icon-double-angle-right"></i>
-          Invoice
-        </a>
+      <li <%= active_page?(invoice_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Invoice')), invoice_path %>
       </li>
 
-      <li>
-        <a href="login.html">
-          <i class="icon-double-angle-right"></i>
-          Login &amp; Register
-        </a>
+      <li <%= active_page?(login_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Login & Register')), login_path %>
       </li>
 
-      <li>
-        <a href="error-404.html">
-          <i class="icon-double-angle-right"></i>
-          Error 404
-        </a>
+      <li <%= active_page?(error404_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Error 404')), error404_path %>
       </li>
 
-      <li>
-        <a href="error-500.html">
-          <i class="icon-double-angle-right"></i>
-          Error 500
-        </a>
+      <li <%= active_page?(error500_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Error 500')), error500_path %>
       </li>
 
-      <li>
-        <a href="blank.html">
-          <i class="icon-double-angle-right"></i>
-          Blank Page
-        </a>
+      <li <%= active_page?(blank_path) %>>
+        <%= link_to (raw('<i class="icon-double-angle-right"></i>Blank Page')), blank_path %>
       </li>
     </ul>
-  </li>
+  <% end %>
 </ul><!--/.nav-list-->
 
 <div id="sidebar-collapse">

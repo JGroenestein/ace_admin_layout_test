@@ -5,9 +5,9 @@
     <ignored path="ace_admin_layout_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/dashboard_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1370991357243" ignored="false" />
-    <file path="/routes.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371087869565" ignored="false" />
+    <file path="/routes.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371134048780" ignored="false" />
     <file path="/index.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371082290517" ignored="false" />
-    <file path="/a.dummy" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371108559241" ignored="false" />
+    <file path="/a.dummy" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371131921526" ignored="false" />
     <file path="/application.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1370996596578" ignored="false" />
     <file path="/_javascript_include.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371081791698" ignored="false" />
     <file path="/_stylesheets_include.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371081808532" ignored="false" />
@@ -16,12 +16,20 @@
     <file path="/_page_header.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371066625304" ignored="false" />
     <file path="/application.css" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371067851306" ignored="false" />
     <file path="/Dummy.txt" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371106085419" ignored="false" />
-    <file path="/_sidebar.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371107861143" ignored="false" />
+    <file path="/_sidebar.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371133735432" ignored="false" />
     <file path="/application_helper.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371107366885" ignored="false" />
-    <file path="/application.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371080381432" ignored="false" />
+    <file path="/application.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371134915342" ignored="false" />
     <file path="/blanktemplate.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371082991026" ignored="false" />
     <file path="/ui_elements_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371087593845" ignored="false" />
     <file path="/buttons.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371105842543" ignored="false" />
+    <file path="/tables_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371126336562" ignored="false" />
+    <file path="/forms_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371126777967" ignored="false" />
+    <file path="/colorpicker.css" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371128966794" ignored="false" />
+    <file path="/widgets_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371131295646" ignored="false" />
+    <file path="/gallery.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371133237650" ignored="false" />
+    <file path="/grid_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371133397745" ignored="false" />
+    <file path="/other_pages_controller.rb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371134128816" ignored="false" />
+    <file path="/login.html.erb" changelist="d031fc58-e789-41ac-9ca9-f32f4f806b4a" time="1371135277973" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,28 +49,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="treeview.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/ui_elements/treeview.html.erb">
+      <file leaf-file-name="blanktemplate.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/blanktemplate.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="9" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.030035336">
+            <state line="0" column="0" selection-start="0" selection-end="475" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spin.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/spin.min.js">
+      <file leaf-file-name="blank.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/other_pages/blank.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elements.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ui_elements/elements.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="773" column="2" selection-start="24872" selection-end="24912" vertical-scroll-proportion="0.0">
+            <state line="20" column="55" selection-start="485" selection-end="485" vertical-scroll-proportion="0.37239867">
               <folding />
             </state>
           </provider>
@@ -78,22 +77,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/Downloads/USB Backup/!Random/AceAdminPanel v1.1/index.html" />
-        <option value="$PROJECT_DIR$/app/views/layouts/AceAdminLayout/_javascript_include.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/AceAdminLayout/_stylesheets_include.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/dashboard/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/typography/typography.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/blanktemplate.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/ui_elements_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/widgets_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/calendar/calendar.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/gallery/gallery.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/grid_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/grid/grid.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/other_pages/pricing.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/AceAdminLayout/_sidebar.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/ui_elements/buttons.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/ui_elements/elements.html.erb" />
-        <option value="$PROJECT_DIR$/log/development.log" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/spin.min.js" />
-        <option value="$PROJECT_DIR$/app/views/ui_elements/treeview.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/other_pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/other_pages/invoice.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/other_pages/login.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/blanktemplate.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/other_pages/error404.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/other_pages/error500.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/other_pages/blank.html.erb" />
       </list>
     </option>
   </component>
@@ -105,10 +104,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+    <option name="x" value="1916" />
     <option name="y" value="-4" />
     <option name="width" value="1928" />
-    <option name="height" value="1044" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -228,6 +227,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ui_elements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="tables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,11 +315,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="other_pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AceAdminLayout" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +422,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ace_admin_layout_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -642,25 +765,45 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <frame x="1916" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119171" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26414087" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26414087" sideWeight="0.6704663" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31278026" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31295338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31208053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -727,91 +870,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/ui_elements/treeview.html.erb">
+    <entry file="file://G:/!Random/AceAdminPanel v1.1/invoice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="542" column="70" selection-start="13403" selection-end="13403" vertical-scroll-proportion="0.13033953">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/spin.min.js">
+    <entry file="file://G:/!Random/AceAdminPanel v1.1/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="9" column="41" selection-start="262" selection-end="262" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ui_elements/elements.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/other_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="773" column="2" selection-start="24872" selection-end="24912" vertical-scroll-proportion="0.0">
+        <state line="18" column="5" selection-start="174" selection-end="174" vertical-scroll-proportion="0.3258786">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/blanktemplate.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="522" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ui_elements_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="621" selection-end="874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/AceAdminLayout/_sidebar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="96" selection-start="4279" selection-end="4289" vertical-scroll-proportion="0.5466667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/other_pages/login.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="821" selection-end="821" vertical-scroll-proportion="-3.3943045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18619934">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/AceAdminLayout/_sidebar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="94" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-7.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ui_elements/buttons.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="614" column="62" selection-start="20746" selection-end="20746" vertical-scroll-proportion="0.2327791" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/typography/typography.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="212" vertical-scroll-proportion="0.08202654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ui_elements/elements.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="773" column="2" selection-start="24872" selection-end="24912" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/spin.min.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ui_elements/treeview.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.030035336">
+        <state line="3" column="20" selection-start="59" selection-end="72" vertical-scroll-proportion="0.0543131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/other_pages/error404.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="6" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.96276015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/!Random/AceAdminPanel v1.1/error-404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="545" column="0" selection-start="13466" selection-end="15090" vertical-scroll-proportion="0.40963855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/!Random/AceAdminPanel v1.1/error-500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="545" column="0" selection-start="13466" selection-end="14785" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/other_pages/error500.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="6" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.96276015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/blanktemplate.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="475" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/!Random/AceAdminPanel v1.1/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="77" selection-end="87" vertical-scroll-proportion="360.46155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/other_pages/blank.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="55" selection-start="485" selection-end="485" vertical-scroll-proportion="0.37239867">
           <folding />
         </state>
       </provider>

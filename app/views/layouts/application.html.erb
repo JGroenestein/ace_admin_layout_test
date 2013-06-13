@@ -1,4 +1,11 @@
-<%= render 'layouts/header' %>
+
+<% unless current_page?(login_path) %>
+  <%= render 'layouts/header' %>
+<% end %>
+
 <%= yield %>
-<%= render 'layouts/footer' %>
+
+<% unless current_page?(login_path) %>
+  <%= render 'layouts/footer' %>
+<% end %>
 
